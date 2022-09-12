@@ -9,4 +9,8 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
+  @Get('/list')
+  getSwipList():any[]{
+    return this.appService.getSwipList();
+  }
 }
