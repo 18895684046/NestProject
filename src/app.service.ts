@@ -12,7 +12,7 @@ export class AppService {
     const imgList = [
       {
         name:"第一张",
-        imgUrl:"test"
+        imgUrl:"test11"
       },
       {
         name:"第一张",
