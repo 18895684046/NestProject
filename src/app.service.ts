@@ -11,7 +11,7 @@ export class AppService {
   getSwipList():Swipe[]{
     const imgList = [
       {
-        name:"第一张数据",
+        name:"第一张数据11",
         imgUrl:"test11"
       },
       {
