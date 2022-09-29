@@ -5,12 +5,12 @@ import { AppService } from './app.service';
 export class AppController {
   constructor(private readonly appService: AppService) { }
 
-  @Get()
-  getHello(): string {
-    return this.appService.getHello();
+  @Get('/goodstype')
+  getGoodsType(): string {
+    return this.appService.getGoodsType();
   }
   @Get('/list')
-  getSwipList(): any[] {
+  getSwipList(): any {
     return this.appService.getSwipList();
   }
   @Get(':id')
